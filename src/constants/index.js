@@ -196,6 +196,6 @@ export const LANGUAGE_TO_FLAG = {
   dutch: "nl",
 };
 
-const API_BASE_URL = "https://backend-production-ccbe0.up.railway.app";
+const API_BASE_URL = "https://backend-production-e81c.up.railway.app";
 
 export { API_BASE_URL };
