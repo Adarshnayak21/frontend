@@ -29,15 +29,14 @@ const Sidebar = () => {
           <span>Home</span>
         </Link>
 
-        <Link
-          to="/friends"
-          className={`btn btn-ghost justify-start w-full gap-3 px-3 normal-case ${
-            currentPath === "/friends" ? "btn-active" : ""
-          }`}
+        {/* Friends link replaced with dashboard redirect */}
+        <button
+          className={`btn btn-ghost justify-start w-full gap-3 px-3 normal-case`}
+          onClick={() => (window.location.href = "/")}
         >
           <UsersIcon className="size-5 text-base-content opacity-70" />
           <span>Friends</span>
-        </Link>
+        </button>
 
         <Link
           to="/notifications"
